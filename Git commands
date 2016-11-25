@@ -1,0 +1,6 @@
+git init
+git status
+git add .   (Adds new files)
+
+git rm --cached -r node_modules
+git commit -a -m "Initialize repo"  (Commits add all files git knows about )
