@@ -4,3 +4,7 @@ git add .   (Adds new files)
 
 git rm --cached -r node_modules
 git commit -a -m "Initialize repo"  (Commits add all files git knows about )
+git remote add origin https://github.com/MarkHoff/web-server.git
+git diff
+git push
+git push heroku master (Push files to heroku web server)
